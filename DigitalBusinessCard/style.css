@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+
+    
+}
+
+.card{
+    border-radius: 10px 10px;
+    background-color: #23252C;
+    width: 317px;
+    height: 780px;
+    margin: 20px auto; 
+    /* border: 3px solid white;   */
+}
+
+.me{
+    border-top-left-radius:10px; 
+    border-top-right-radius:10px;
+    width: 100%;
+    height: 317px;
+    object-fit: cover;
+}
+
+.info{
+    height: 120px;
+}
+.info--name{
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #F5F5F5;
+    /* margin-top: 10px; */
+}
+
+.info--job{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: -15px; 
+}
+
+.info--btns--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px 9px 11px;
+}
+
+.info--btns{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px; 
+    font-weight:500;
+    font-size: 14px;
+    line-height: 16px;   
+}
+
+.info--email{
+    border: 1px solid #D1D5DB;
+    background: #FFFFFF;
+}
+
+button > i {
+    margin-right: 7px;
+}
+
+.info--linkedin{
+    background: #5093E2;
+    color:#FFFFFF;
+}
+
+.about{
+    margin-left: 40px;
+    color: #F5F5F5;
+    line-height: 150%;
+    height: 123px;
+   
+}
+
+.about--header{
+    font-size: 16px;
+}
+
+.about--content{
+    font-weight: 400;
+    font-size: 10.24px;
+    margin-top: -10px;
+    color: #DCDCDC;
+    line-height: 125%;
+    margin-right: 25px;
+}
+
+.interests{
+    margin-left: 40px;
+    color: #F5F5F5;
+    line-height: 150%;
+    height: 123px;
+    margin-top: -30px;
+}
+
+.interests--header{
+    font-size: 16px;
+}
+
+.interests--content{
+    font-weight: 400;
+    font-size: 10.24px;
+    margin-top: -10px;
+    color: #DCDCDC;
+    line-height: 125%;
+    margin-right: 25px;
+}
+
+.footer{
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    color: #FFFFFF;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+   
+}
